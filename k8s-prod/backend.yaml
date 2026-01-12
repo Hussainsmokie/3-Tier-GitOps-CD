@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: nousath/backend:latest
+          image: nousath/backend:ef4653ea120dbc3c9c549309bb80bedaaa53b758
           ports:
             - containerPort: 5000
           env:

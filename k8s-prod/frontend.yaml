@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: nousath/frontend
+          image: nousath/frontend:ef4653ea120dbc3c9c549309bb80bedaaa53b758
           ports:
             - containerPort: 80
 ---
